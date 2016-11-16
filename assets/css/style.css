@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'Glyphicons Halflings';
+
+    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot');
+    src: url('../fonts/glyphicons/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
+}
+
+@font-face {
+    font-family: 'IRANSans-web';
+    src: url('../fonts/farsi/IRANSans-Light-web.eot');
+    src: url('../fonts/farsi/IRANSans-Light-web.eot?#iefix') format('eot'), /* IE6�8 */
+    url('../fonts/farsi/IRANSans-Light-web.woff2') format('woff2'), /* Chrome36+, Opera24+*/
+    url('../fonts/farsi/IRANSans-Light-web.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('../fonts/farsi/IRANSans-Light-web.ttf') format('ttf');
+}
+
+
+@font-face {
+    font-family: Shabnam2;
+    src: url('../fonts/farsi/Shabnam.eot');
+    src: url('../fonts/farsi/Shabnam.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/farsi/Shabnam.woff') format('woff'),
+    url('../fonts/farsi/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Shabnam;
+    src: url('../fonts/farsi/Shabnam-Bold.eot');
+    src: url('../fonts/farsi/Shabnam-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/farsi/Shabnam-Bold.woff') format('woff'),
+    url('../fonts/farsi/Shabnam-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Shabnam;
+    src: url('../fonts/farsi/Shabnam-persian-digits-overwrite.eot');
+    src: url('../fonts/farsi/Shabnam-persian-digits-overwrite.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/farsi/Shabnam-persian-digits-overwrite.woff') format('woff'),
+    url('../fonts/farsi/Shabnam-persian-digits-overwrite.ttf') format('truetype');
+    font-weight: normal;
+}
+
+
+body{
+    direction:rtl;
+    font-family: "Shabnam";
+
+}
