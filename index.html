@@ -15,6 +15,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="/assets/css/aos.css">
 
 </head>
 <body>
@@ -43,7 +44,7 @@
 
 <section class="container has-text-centered" style="height:90vh">
 
-    <div class="header-logo">
+    <div class="header-logo" data-aos="zoom-in">
         <img src="./assets/img/chavosh.png">
     </div>
 
@@ -76,17 +77,17 @@
     <div class="columns">
 
         <div class="column "></div>
-        <div class="column ">
+        <div class="column is-one-quarter ">
             <a href="./iOS/index.html">
-                <img class="image is-64x64 is-pulled-left" src="assets/img/ios-logo.png">
+                <img class="image is-64x64  " src="assets/img/ios-logo.png">
                 <br><br><br><br>
                 <h2 class="is-pulled-left">آموزش نصب iOS</h2>
             </a>
 
         </div>
-        <div class="column ">
+        <div class="column is-one-quarter">
             <a href="./android/index.html">
-                <img class="image is-64x64 is-pulled-right" src="assets/img/android-logo.jpg">
+                <img class="image is-64x64 is-centered " src="assets/img/android-logo.jpg">
                 <br><br><br><br>
                 <h2 class="is-pulled-right">آموزش نصب اندروید</h2>
             </a>
@@ -118,34 +119,10 @@
     </div>
 </footer>
 
-<script async id="twitter-wjs" href="https://platform.twitter.com/widgets.js"></script>
-<script async type="text/javascript" href="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
-
-<script href="http://bulma.io/javascript/jquery-2.2.0.min.js"></script>
-<script href="http://bulma.io/javascript/clipboard.min.js"></script>
-<script href="http://bulma.io/javascript/bulma.js"></script>
-
-
-
-<script type="text/javascript">
-    (function($) {
-        window.fnames = new Array();
-        window.ftypes = new Array();
-        fnames[0]='EMAIL';
-        ftypes[0]='email';
-    }(jQuery));
-    var $mcj = jQuery.noConflict(true);
-</script>
-
-<script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-82634666-2', 'auto');
-    ga('send', 'pageview');
-</script>
+<script src="/assets/js/jquery-2.2.0.min.js"></script>
+<script src="/assets/js/bulma.js"></script>
+<script src="/assets/js/aos.js"></script>
+<script src="/assets/js/app.js"></script>
 
 </body>
 </html>
