@@ -9,10 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="../assets/aos/aos.css">
-    <script src="../assets/aos/aos.js"></script>
-    <script>
-        AOS.init();
-    </script>
 
 </head>
 <body>
@@ -276,7 +272,7 @@
     </div>
 </footer>
 
-<script async id="twitter-wjs" href="https://platform.twitter.com/widgets.js"></script>
+
 <script async type="text/javascript" href="https://s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
 
 <script href="http://bulma.io/javascript/jquery-2.2.0.min.js"></script>
@@ -304,6 +300,26 @@
     ga('create', 'UA-82634666-2', 'auto');
     ga('send', 'pageview');
 </script>
+
+<script src="../assets/aos/aos.js"></script>
+
+<script>
+    AOS.init({
+        easing: 'ease-out-back',
+        duration: 1000
+    });
+</script>
+
+<script>
+    hljs.initHighlightingOnLoad();
+
+    $('.hero__scroll').on('click', function(e) {
+        $('html, body').animate({
+            scrollTop: $(window).height()
+        }, 1200);
+    });
+</script>
+
 
 </body>
 </html>
