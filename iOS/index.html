@@ -8,6 +8,11 @@
     <link rel="icon" type="image/png" href="/assets/img/chavoshLogo.png" sizes="32x32">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="stylesheet" href="../assets/aos/aos.css">
+    <script src="../assets/aos/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </head>
 <body>
@@ -15,17 +20,23 @@
 <section class="hero is-primary">
     <div class="hero-head">
         <div class="container">
-            <nav class="nav " id="nav-menu">
+            <nav class="nav " >
                 <div class="container">
 
                     <div class="nav-left">
                         <a class="nav-item is-brand" href="../index.html">
 
-                            <img src="../assets/img/chavosh.png">
+                            <img src="../assets/img/chavosh.png" style="min-height: 70px">
 
                         </a>
                     </div>
-                    <div class="nav-right nav-menu">
+
+                    <span id="nav-toggle" class="nav-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </span>
+                    <div class="nav-right nav-menu" id="nav-menu">
 
                         <a class="nav-item" href="/">
                             <span>صفحه اصلی</span>
@@ -41,12 +52,6 @@
 
                     </div>
 
-
-  <span id="nav-toggle" class="nav-toggle">
-    <span></span>
-    <span></span>
-    <span></span>
-  </span>
                 </div>
             </nav>
 
@@ -55,12 +60,6 @@
 
     <div class="hero-body">
         <div class="container">
-            <!--<a class=" is-brand" href="../index.html">-->
-
-            <!--<img class="image  is-pulled-right" src="../assets/img/chavosh.png" style="max-width:200px;">-->
-
-            <!--</a>-->
-            <!--<br>-->
             <h1 class="title">آموزش نصب iOS</h1>
         </div>
     </div>
@@ -72,11 +71,11 @@
 <section class="section">
     <div class="container">
 
-        <div class="content ">
+        <div class="content aos-init aos-animate" data-aos="fade-up">
             <div class="columns">
                 <div class="column"></div>
                 <div class="column is-centered is-three-quarters-desktop ">
-                    <div class="box  ">
+                    <div class="box ">
                         <div class="columns">
                             <div class=" column is-one-third ">
                                 <img class="image " src="../assets/img/iOS-img/1.jpg" style="max-width:200px">
