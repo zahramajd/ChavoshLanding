@@ -50,3 +50,7 @@ body {
     max-width: 100%;
     width:512px ;
 }
+
+li{
+    padding-bottom: 4px;
+}
