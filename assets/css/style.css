@@ -54,3 +54,8 @@ body {
 li{
     padding-bottom: 4px;
 }
+
+
+.content a {
+    color: #3273dc !important;
+}
