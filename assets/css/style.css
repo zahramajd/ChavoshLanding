@@ -56,6 +56,9 @@ li{
 }
 
 
-.content a {
+li a {
+    color: #3273dc !important;
+}
+.question {
     color: #3273dc !important;
 }
